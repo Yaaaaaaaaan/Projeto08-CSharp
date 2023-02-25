@@ -15,7 +15,7 @@ namespace Projeto08
 
             Console.WriteLine("Circunferência; " + circ.ToString("F2",CultureInfo.InvariantCulture));
             Console.WriteLine("Volume; " + vol.ToString("F2",CultureInfo.InvariantCulture));
-
+            Console.WriteLine("Valor de PI; " + Pi.ToString("F2",CultureInfo.InvariantCulture));
             Console.ReadLine();
         }
         static double Circunferencia(double r)
